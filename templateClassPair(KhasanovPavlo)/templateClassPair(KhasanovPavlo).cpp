@@ -11,5 +11,12 @@ int main()
     integer.swap();
     cout << integer.getFirst() << endl;
     cout << integer.getSecond() << endl;
+
+    Pair<string> str("Hello", "World");
+    cout << str.getFirst() << endl;
+    cout << str.getSecond() << endl;
+    str.swap();
+    cout << str.getFirst() << endl;
+    cout << str.getSecond() << endl;
     system("pause");
 }
